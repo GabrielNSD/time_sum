@@ -145,7 +145,6 @@ func (ts *TimeSum) formatTotal() string {
 
 func (ts *TimeSum) reset() {
 	ts.totalSeconds = 0
-	ts.isSumming = false
 	fmt.Println("Time sum reset")
 }
 
